@@ -1,0 +1,70 @@
+@mixin title-page{
+    font-family: $primary-font;
+}
+
+@mixin title-section{
+    font-family: $primary-font;
+}
+
+@mixin title-article{
+    font-family: $secondary-font;
+}
+
+@mixin text-article{
+    font-family: $text;
+    font-size: $small;
+}
+
+@mixin text-mutted{
+    font-size: $mutted;
+}
+
+@mixin link{
+    text-decoration: none;
+    color: $color-secondary;
+    border-bottom: .1rem solid $color-primary;
+    &:hover{
+        text-decoration: none;
+        color: $color-secondary;
+        background-color: $color-primary;
+    }
+}
+
+@mixin link-nav{
+    text-decoration: none;
+    color: $color-secondary;
+    font-weight: $semibold;
+    border-bottom: .1rem solid $color-primary;
+    &:hover{
+        border-bottom: .1rem solid $color-primary;
+    }
+}
+
+@mixin input{
+    border: .05rem solid $color-quaternary;
+    padding: 0.5rem 0.7rem;
+    font-weight: $normal;
+    border-radius: 0;
+    font-family: $secondary-font;
+}
+
+@mixin textarea{
+    border: .05rem solid $color-quaternary;
+    font-family: $primary-font;
+}
+
+@mixin button{
+    // must take into account the links in the form of buttons
+    background:$color-primary;
+    color: $color-secondary;
+    font-family: $primary-font;
+    border-radius: none;
+    padding: $btn-pole $btn-side;
+    border: none;
+    text-decoration: none;
+    &:hover{
+        background-color: $color-secondary;
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
