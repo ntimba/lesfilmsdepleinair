@@ -1,0 +1,25 @@
+.navigation {
+  font-family: "Martel", serif;
+  color: #333;
+  font-weight: 500;
+}
+.navigation__logo {
+  width: 10rem;
+}
+.navigation__link {
+  margin-right: 1rem;
+  padding: 0;
+}
+.navigation__link a {
+  text-decoration: none;
+  color: #333;
+  padding: 0px;
+}
+.navigation__link a:hover {
+  border-bottom: 2px solid #ffcc00;
+}
+.navigation__link--active {
+  border-bottom: 2px solid #ffcc00;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.navigation {
+    font-family: $secondary-font;
+    color: $color-secondary;
+    font-weight: $semibold;
+    
+    &__logo{
+        width: 10rem;
+    }
+
+    &__link {
+        margin-right: 1rem;
+        padding: 0;
+        a{
+            @include link-nav;
+            padding: 0px;
+        }
+    }
+
+    &__link--active{
+        border-bottom: 2px solid $color-primary;
+    }
+}
