@@ -1,0 +1,34 @@
+{
+  "name": "lesfilmsdepleinair",
+  "version": "1.0.0",
+  "description": "Projet 3 - Développeur d'application PHP/Symfony",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./public/css/style.css --style expanded",
+    "reload": "browser-sync start --server './' --files './'",
+    "dev": "concurrently \"npm:reload\" \"npm:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntimba/lesfilmsdepleinair.git"
+  },
+  "author": "Ntimba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntimba/lesfilmsdepleinair/issues"
+  },
+  "homepage": "https://github.com/ntimba/lesfilmsdepleinair#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.2"
+  }
+}
