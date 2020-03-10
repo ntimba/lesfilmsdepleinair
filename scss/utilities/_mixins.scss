@@ -51,18 +51,3 @@
     font-family: $primary-font;
 }
 
-@mixin button{
-    // must take into account the links in the form of buttons
-    background:$color-primary;
-    color: $color-secondary;
-    font-family: $primary-font;
-    border-radius: none;
-    padding: $btn-pole $btn-side;
-    border: none;
-    text-decoration: none;
-    &:hover{
-        background-color: $color-secondary;
-        color: $color-primary;
-        text-decoration: none;
-    }
-}
