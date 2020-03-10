@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/fontawesome/">
+
+    <link rel="icon" href="./public/imgs/favicon.png" type="image/png" sizes="32x32">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,500i|Martel:300,400|Trirong:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#"> <img class="navigation__logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
+        <button class="navbar-toggler manu-bars" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navigation collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="navigation__link navigation__link--active">
+                      Accueil
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="index.html#schedule">Réservation</a>
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="news.html">Actualité</a>
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="contact.html">Contact</a>
+                </li>
+                <li class=" d-none d-lg-block"><!-- Desactiver pour les smartphone -->
+                    <a href="index.html#schedule" class="button button--light">Reserver</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    
+   
+
+    <div class="container">
+
+        <!-- card news preview -->
+        <div class="card card--news-preview" style="width: 20rem;">
+            <img src="./public/uploads/omarsy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <div class="card__meta">
+                    <a class="card__meta--category" href="#">
+                        <span class="card__meta--category-drop-caps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <div>
+                    <h5 class="card__title card__link--decorated card-title">Card title</h5>
+                </div>
+                <p class="card__text card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card__text"> <a href="#" class="card__link"><span>François Dupond</span> - <span>01 mars 2020</span>   </a> </p>
+                
+                <ul class="col-md-6 d-flex card--news-preview__social-media justify-content-between">
+                    <li><a href="#" class="card--news-preview__social-media--facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" class="card--news-preview__social-media--twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="card--news-preview__social-media--youtube"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" class="card--news-preview__social-media--instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br><br>
+        
+        <!-- last news preview -->
+      
+        <br><br><br>
+
+        <!-- last news -->
+        
+        <br><br><br>
+    
+        <!-- card -->
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex">
+                    <span class="card__icon"><i class="fas fa-american-sign-language-interpreting heading--medium"></i></span>
+                    <h5 class="card__title">Card title</h5>
+                </div>
+                <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut reiciendis architecto enim odio repellendus optio expedita beatae amet atque explicabo?</p>
+            </div>
+        </div>
+
+        <!-- card news-preview -->
+        <!-- card last-news -->
+        <!-- card trailer -->
+        <!-- card schedule -->
+
+
+
+
+
+    </div>
+    
+    
+
+
+
+
+    
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./public/js/video.js"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script> 
+</body>
+</html>

@@ -1,0 +1,123 @@
+.card{
+    // titre
+    // texte 
+    border-radius: 0;
+    color: $color-secondary;
+
+    &__meta{
+        list-style: none;
+        padding: 0;
+        color: $color-tertiary;
+        margin-bottom: 1rem;
+        &--category{
+            margin-bottom: 1rem;
+            color: $color-secondary;
+            font-weight: $semibold;
+            &:hover{
+                color: $color-secondary;
+                text-decoration: none;
+            }
+
+            &-drop-caps{
+                font-family: $primary-font;
+                background: $color-primary;
+                font-weight: $semibold;
+                padding: 0.5rem;
+            }
+        }
+
+        &--author{
+
+        }
+    }
+    
+    &__title{
+        font-family: $primary-font;
+        font-size: $medium;
+        margin-bottom: 1rem;
+
+    }    
+
+    &__text{
+        font-family: $secondary-font;
+    }
+    
+    &__link{
+        color: $color-secondary;
+        font-weight: 600;
+        font-size: $mutted;
+        &:hover{
+            text-decoration: none;
+            color: $color-tertiary;
+        }
+    }
+    
+    &__link--decorated{
+        display: inline-block;
+        @include link;
+    }
+
+    &__icon {
+        margin-right: .75rem;
+        font-size: $medium;
+        margin-bottom: 1rem;
+    }
+
+
+
+    &--news-preview{
+        img{
+            border-radius: 0;
+            position: relative;
+        } 
+        
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        &__social-media{
+            &--facebook{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-facebook;
+                }
+            }
+
+            &--twitter{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-twitter;
+                }
+            }
+
+            &--youtube{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-youtube;
+                }
+            }
+
+            &--instagram{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-instagram;
+                }
+            }
+        }
+    }
+
+    &--last-news{
+
+    }
+
+    &--trailer{
+
+    }
+
+    &--schedule{
+
+    } 
+
+
+}
