@@ -101,6 +101,10 @@
   color: #333;
   background-color: #ffcc00;
 }
+.card__link--decorated a {
+  color: #333;
+  text-decoration: none;
+}
 .card__icon {
   margin-right: 0.75rem;
   font-size: 1.5rem;
@@ -137,6 +141,76 @@
 }
 .card--news-preview__social-media--instagram:hover {
   color: #000000;
+}
+.card--last-news-prev__text {
+  font-size: 1rem;
+}
+.card--trailer {
+  border: none;
+}
+.card--trailer a {
+  color: #333;
+}
+.card--trailer img {
+  border-radius: 0;
+}
+.card--trailer .card-body {
+  padding: 1rem 0rem;
+}
+.card--trailer .card__title {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+.card--trailer__play-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffcc00;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+.card--schedule img {
+  border-radius: 0;
+}
+.card--schedule ul {
+  list-style: none;
+  padding: 0;
+}
+.card--schedule ul li {
+  color: #ffcc00;
+}
+.card--schedule-details-item {
+  margin-right: 1rem;
+}
+.card--schedule-details .card-body .card--schedule-detail-item {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.card__header {
+  background-color: #fff;
+}
+.card__header ul {
+  list-style: none;
+  padding-left: 0;
+}
+.card--featured-movie {
+  border: 0px;
+  width: 22.5rem;
+}
+.card--featured-movie .card__title {
+  border-left: 0.2rem solid #ffcc00;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+.card--featured-movie .card-body {
+  background: #000;
+}
+.card--featured-movie iframe {
+  width: 20rem;
+  height: 11rem;
 }
 
 /*# sourceMappingURL=style.css.map */

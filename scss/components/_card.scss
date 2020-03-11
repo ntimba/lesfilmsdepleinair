@@ -55,6 +55,12 @@
     &__link--decorated{
         display: inline-block;
         @include link;
+        
+        a{
+            color: $color-secondary;
+            text-decoration: none;
+        }
+
     }
 
     &__icon {
@@ -107,17 +113,96 @@
         }
     }
 
-    &--last-news{
-
+    &--last-news-prev{
+        &__text{
+            font-size: $small;
+        }
     }
 
     &--trailer{
+        border: none;
+        a{
+            color: $color-secondary;
+        }
+        
+        img{
+            border-radius: 0;
+        }
+        .card-body{
+            padding: 1rem 0rem;
+        }
+        .card__title{
+            margin: 0;
+            font-size: $small;
+            color: $color-secondary;
+        }
 
+        &__play-button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #ffcc00;
+            font-size: 1rem;
+            padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+        }
     }
 
     &--schedule{
-
+        img{
+            border-radius: 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            
+            li{
+                color: $color-primary;
+            }
+        }
     } 
 
+    &--schedule-details{
+        &-item{
+            margin-right: 1rem;
+        }
+
+        .card-body{
+            .card--schedule-detail-item{
+                margin-bottom: 30px;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+
+    &__header{
+        background-color: #fff;
+        ul{
+            list-style: none;
+            padding-left: 0;
+        }
+    }
+
+
+    &--featured-movie{
+        border: 0px;
+        width: 22.5rem;
+
+        .card__title{
+            border-left: .2rem solid $color-primary;
+           padding-top: 0.5rem; 
+           padding-bottom: 0.5rem;
+           padding-left: 1.1rem;
+           margin-bottom: 1rem;
+        }
+
+        .card-body{
+           background: #000;
+        }
+        iframe{
+            width: 20rem;
+            height: 11rem;
+        }
+    }
 
 }
