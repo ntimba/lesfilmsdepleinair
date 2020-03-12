@@ -1,0 +1,209 @@
+.card{
+    // titre
+    // texte 
+    border-radius: 0;
+    color: $color-secondary;
+
+    &__meta{
+        list-style: none;
+        padding: 0;
+        color: $color-tertiary;
+        margin-bottom: 1rem;
+        &--category{
+            margin-bottom: 1rem;
+            color: $color-secondary;
+            font-weight: $semibold;
+            &:hover{
+                color: $color-secondary;
+                text-decoration: none;
+            }
+
+            &-drop-caps{
+                font-family: $primary-font;
+                background: $color-primary;
+                font-weight: $semibold;
+                padding: 0.5rem;
+            }
+        }
+
+        &--author{
+
+        }
+    }
+    
+    &__title{
+        font-family: $primary-font;
+        font-size: $medium;
+        margin-bottom: 1rem;
+
+    }    
+
+    &__text{
+        font-family: $secondary-font;
+    }
+    
+    &__link{
+        color: $color-secondary;
+        font-weight: 600;
+        font-size: $mutted;
+        &:hover{
+            text-decoration: none;
+            color: $color-tertiary;
+        }
+    }
+    
+    &__link--decorated{
+        display: inline-block;
+        @include link;
+        
+        a{
+            color: $color-secondary;
+            text-decoration: none;
+        }
+
+    }
+
+    &__icon {
+        margin-right: .75rem;
+        font-size: $medium;
+        margin-bottom: 1rem;
+    }
+
+
+
+    &--news-preview{
+        img{
+            border-radius: 0;
+            position: relative;
+        } 
+        
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        &__social-media{
+            &--facebook{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-facebook;
+                }
+            }
+
+            &--twitter{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-twitter;
+                }
+            }
+
+            &--youtube{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-youtube;
+                }
+            }
+
+            &--instagram{
+                color: $color-secondary;
+                &:hover{
+                    color: $color-instagram;
+                }
+            }
+        }
+    }
+
+    &--last-news-prev{
+        &__text{
+            font-size: $small;
+        }
+    }
+
+    &--trailer{
+        border: none;
+        a{
+            color: $color-secondary;
+        }
+        
+        img{
+            border-radius: 0;
+        }
+        .card-body{
+            padding: 1rem 0rem;
+        }
+        .card__title{
+            margin: 0;
+            font-size: $small;
+            color: $color-secondary;
+        }
+
+        &__play-button{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #ffcc00;
+            font-size: 1rem;
+            padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+        }
+    }
+
+    &--schedule{
+        img{
+            border-radius: 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+            
+            li{
+                color: $color-primary;
+            }
+        }
+    } 
+
+    &--schedule-details{
+        &-item{
+            margin-right: 1rem;
+        }
+
+        .card-body{
+            .card--schedule-detail-item{
+                margin-bottom: 30px;
+                margin-top: 20px;
+            }
+        }
+        
+    }
+
+    &__header{
+        background-color: #fff;
+        ul{
+            list-style: none;
+            padding-left: 0;
+        }
+    }
+
+
+    &--featured-movie{
+        border: 0px;
+        width: 22.5rem;
+
+        .card__title{
+            border-left: .2rem solid $color-primary;
+           padding-top: 0.5rem; 
+           padding-bottom: 0.5rem;
+           padding-left: 1.1rem;
+           margin-bottom: 1rem;
+        }
+
+        .card-body{
+           background: #000;
+        }
+        
+        iframe{
+            width: 20rem;
+            height: 11rem;
+        }
+    }
+
+}

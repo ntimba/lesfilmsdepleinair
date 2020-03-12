@@ -19,16 +19,19 @@
     font-size: $mutted;
 }
 
-@mixin link{
-    text-decoration: none;
-    color: $color-secondary;
-    border-bottom: .1rem solid $color-primary;
-    &:hover{
-        text-decoration: none;
-        color: $color-secondary;
-        background-color: $color-primary;
-    }
+/* LES MIXINS VÉRIFIÉ */
+@mixin link {
+	text-decoration: none;
+	color: $color-secondary;
 }
+
+@mixin social-media ($color) {
+	&:hover{
+		color: $color
+	}
+}
+
+/* *******************/
 
 @mixin link-nav{
     text-decoration: none;

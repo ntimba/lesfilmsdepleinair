@@ -1,9 +1,11 @@
 .button{
     font-family: $primary-font;
-    padding: $btn-pole $btn-side;
+    padding: $form-item-pole $form-item-side;
+        
     text-decoration: none;
     border-radius: none;
     border: none;
+    margin-bottom: 1rem;
     
     &--dark{
         background: $color-secondary;

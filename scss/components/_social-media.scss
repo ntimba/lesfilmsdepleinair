@@ -1,0 +1,30 @@
+.social-media{
+    padding-left: 0;
+    list-style: none;
+    a{
+        color: $color-secondary;
+    }
+    
+    &__item{
+        border: 2px solid green;
+    }
+
+
+    &__facebook{
+        @include social-media($color-facebook);
+    }
+
+    &__twitter{
+        @include social-media($color-twitter);
+    }
+
+    &__youtube{
+        @include social-media($color-youtube);
+    }
+
+    &__instagram{
+        @include social-media($color-instagram);
+    }
+
+   
+}

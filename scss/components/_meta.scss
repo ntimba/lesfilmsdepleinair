@@ -1,0 +1,37 @@
+.meta{
+    a{
+        @include link; 
+
+        &:hover{
+            text-decoration: none;
+            color: $color-tertiary;
+        }
+    }
+
+    &__author-name{
+        font-weight: $semibold;
+    }
+
+    &__article-date{
+        font-weight: $semibold;
+    }
+
+    &--category{
+        margin-bottom: 1rem;
+        a{
+            color: $color-secondary;
+        }
+        
+        &__dropcaps{
+            font-family: $primary-font;
+            background: $color-primary;
+            font-weight: $semibold;
+            padding: 0.5rem;
+        }
+        
+        &__name{
+            font-weight: $semibold;
+        }
+    }
+    
+}

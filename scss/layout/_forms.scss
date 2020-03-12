@@ -1,0 +1,17 @@
+.form{
+    margin-top: 2rem;
+    
+    &__input{
+        padding: 2rem;    
+        font-family: $primary-font;
+        border-radius: 0;
+
+        margin-bottom: .8rem;
+    }
+
+    &__textarea{
+        font-family: $primary-font;
+        border-radius: 0;
+    }
+
+}
