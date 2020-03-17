@@ -186,6 +186,26 @@ body {
   padding-left: 0rem;
 }
 
+.size--xs {
+  font-size: 0.85rem;
+}
+.size--s {
+  font-size: 1rem;
+}
+.size--m {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.size--l {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.size--xl {
+  font-size: 4rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
 .footer {
   background: #efefef;
   padding: 3rem 0 3rem;
@@ -196,6 +216,13 @@ body {
 .footer .card {
   border: none;
   background: #efefef;
+}
+.footer__copyright {
+  padding-top: 2rem;
+  border-top: 1px solid lightgray;
+}
+.footer__copyright img {
+  width: 5rem;
 }
 
 .form {
@@ -210,6 +237,41 @@ body {
 .form__textarea {
   font-family: "Fira Sans", serif;
   border-radius: 0;
+}
+
+.header {
+  background: #efefef;
+  padding: 5rem;
+}
+.header__title {
+  font-family: "Trirong", serif;
+  margin-bottom: 3rem;
+}
+.header__text {
+  font-family: "Martel", serif;
+}
+.header--contact {
+  background-image: url("../../public/imgs/contact-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.contact-form__title {
+  font-family: "Fira Sans", serif;
+  margin-bottom: 2rem;
+}
+.contact-form__text {
+  font-family: "Martel", serif;
+  margin-bottom: 4rem;
+}
+.contact-aside .card {
+  border: 0px;
+  margin-bottom: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

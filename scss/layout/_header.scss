@@ -1,0 +1,22 @@
+.header{
+    background: $color-quaternary;
+    padding: 5rem;
+
+    &__title{
+        font-family: $tertiary-font;
+        margin-bottom: 3rem;
+    }
+
+    &__text{
+        font-family: $secondary-font;
+    }
+
+    &--contact{
+        background-image:url('../../public/imgs/contact-image.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+  
+}

@@ -1,0 +1,30 @@
+
+
+.contact{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+
+    &-form{
+        &__title{
+            font-family: $primary-font;
+            margin-bottom: 2rem;
+        }
+
+        &__text{
+            font-family: $secondary-font;
+            margin-bottom: 4rem;
+        }
+    }
+
+    &-aside{
+        .card{
+            border: 0px;
+            margin-bottom: 3rem;
+        }
+    }
+
+}
+
+
+
+

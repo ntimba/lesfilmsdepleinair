@@ -1,0 +1,25 @@
+.size{
+    &--xs{
+        font-size: $mutted;
+    }
+
+    &--s{
+        font-size: $small;
+    }
+
+    &--m{
+        font-size: $medium;
+        line-height: 1.5rem;
+    }
+
+    &--l{
+        font-size: $large;
+        line-height: 2rem;        
+    }
+
+    &--xl{
+        font-size: $extra-large;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
+    }
+}

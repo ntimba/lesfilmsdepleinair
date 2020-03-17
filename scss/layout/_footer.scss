@@ -11,4 +11,12 @@
         border: none;
         background: $color-quaternary;
     }
+
+    &__copyright{
+        padding-top: 2rem;
+        border-top: 1px solid lightgray;
+        img{
+            width: 5rem;
+        }
+    }
 }
