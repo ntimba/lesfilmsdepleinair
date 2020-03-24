@@ -1,0 +1,26 @@
+.title{
+	&--section{
+		font-family: $primary-font;
+	}	
+	
+	&--page{
+		font-family: $primary-font;
+	}
+	&--card{
+		font-family: $primary-font;
+	}
+
+	&--dark{
+		color: #fff;
+		a{
+			color: #fff;
+		}
+	}
+
+	&--light{
+        color: $color-secondary;
+		a{
+		color: $color-secondary;
+		}
+	}
+}

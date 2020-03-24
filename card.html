@@ -45,6 +45,52 @@
 
     <div class="container">
 
+        <!-- card avec background image en css, texte de description en bas-->
+        <div class="card" style="width: 20rem;">
+            <div class="image-card" style="background-image: url('./public/uploads/slider-1.jpg')"></div>
+            <div class="card-body">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <h2 class="title--card title--dark card__link--decorated"> <a href="#">Card title</a></h2>
+                <p class="card-text text--card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                <!-- card meta -->
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                </p>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <!-- card avec background image en css, text description incruster dans l'image-->
+        <div class="card card--encrusted" style="background-image: url('./public/uploads/slider-2.jpg');">
+
+            <div class="card-body">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <h2 class="title--card card__link--decorated"> <a href="#">Card title</a></h2>
+                <p class="card-text text--card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                <!-- card meta -->
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                </p>
+            </div>
+        </div>
+        
+        <br><br><br>
+        
         <!-- card news preview -->
         <div class="card card--news-preview" style="width: 20rem;">
             <img src="./public/uploads/omarsy.jpg" class="card-img-top" alt="...">
@@ -59,7 +105,7 @@
                     <h5 class="card__title card__link--decorated">Card title</h5>
                 </div>
                 <p class="card__text card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="meta"> <a href="#"><span class="meta__author-name">François Dupond</span> - <span class="meta__article-date">01 mars 2020</span>   </a> </p>
+                <p class="meta"> <a href="#"><span class="meta__author-name"><i class="fas fa-user"></i>François Dupond</span>  <span class="meta__article-date"><i class="far fa-calendar-alt"></i>01 mars 2020</span>   </a> </p>
                 
                 <ul class="d-flex justify-content-between social-media">
                     <li><a href="#" class="social-media__facebook"><i class="fab fa-facebook"></i></a></li>
@@ -71,7 +117,37 @@
         </div>
 
         <br><br><br>
+
+       
+
+        <br><br><br><br>
+
+        <!-- card news header avec image -->
+        <div class="card card--header-page" style="width: 20rem;">
+            <img src="./public/uploads/omarsy.jpg" class="card-img-top" alt="...">
+            
+            <div class="card-body">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <div>
+                    <h5 class="card__title card__link--decorated">Card title</h5>
+                </div>
+                
+                <p class="card__text card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date"><i class="far fa-calendar-alt"></i> <a href="#">01 mars 2020</a></span>   
+                </p>
+
+            </div>
+        </div>
         
+        <br><br><br><br><br>
     
         
     
@@ -104,7 +180,7 @@
                         </div>
                         <h5 class="card__title">Card title</h5>
                         <p class="card__text card--last-news-prev__text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card__text"> <a href="#" class="card__link"><span>François Dupond</span> - <span>01 mars 2020</span>   </a> </p>
+                        <p class="card__text"> <a href="#" class="card__link"><span><i class="fas fa-user"></i>François Dupond</span> - <span><i class="far fa-calendar-alt"></i>01 mars 2020</span>   </a> </p>
                         <a href="#" class="card__link--decorated">lire la duite</a>
                     </div>
               </div>

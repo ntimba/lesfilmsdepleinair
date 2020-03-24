@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/fontawesome/">
+
+    <link rel="icon" href="./public/imgs/favicon.png" type="image/png" sizes="32x32">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,500i|Martel:300,400|Trirong:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#"> <img class="navigation__logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
+        <button class="navbar-toggler manu-bars" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navigation collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="navigation__link">
+                      <a class="" href="index.html">Accueil</a>
+                </li>
+                <li class="navigation__link">
+                    <a href="index.html#schedule">Réservation</a>
+                </li>
+                <li class="navigation__link ">
+                    <a href="news.html">Actualité</a>
+                </li>
+                <li class="navigation__link navigation__link--active">
+                    Contact
+                </li>
+                <li class=" d-none d-lg-block"><!-- Desactiver pour les smartphone -->
+                    <a href="index.html#schedule" class="button button--light">Reserver</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- HEADER -->
+    <header class="jumbotron header header--page" style="background-image: url(./public/imgs/contact-2.jpg);">
+        <div class="header-content">
+            <div class="container">
+                <h1 class="size--xl text-center header__title">Contact</h1>
+                <p class="text-center header__text">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            </div>
+        </div>
+    </header>
+    
+   <!-- SLIDER 1 -->
+   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('./public/uploads/slider-1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <h5 class="title--card size--l">First slide label</h5>
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                    <span class="meta__article-view size--xs"><i class="fas fa-fire-alt"></i> <a href="#">232</a></span>   
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('./public/uploads/slider-2.jpg')" >
+            <div class="carousel-caption d-none d-md-block">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <h5 class="title--card size--l">Second slide label De la case</h5>
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                    <span class="meta__article-view size--xs"><i class="fas fa-fire-alt"></i> <a href="#">553</a></span>   
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('./public/uploads/slider-3.jpg')" >
+            <div class="carousel-caption d-none d-md-block">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="">News</span>
+                    </a>
+                </div>
+                <h5 class="title--card size--l">Third slide label</h5>
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                    <span class="meta__article-view size--xs"><i class="fas fa-fire-alt"></i> <a href="#">932</a></span>   
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="filter"></div>
+</div>
+
+   
+   <!-- SLIDER 2 -->
+   <!-- CARD 1 --> <br><br><br>
+<div class="card card--secondary">
+    <div class="image-card" style="background-image: url('./public/uploads/slider-1.jpg')"></div>
+    <div class="card-body">
+        <div class="meta--category">
+            <a class="" href="#">
+                <span class="meta--category__dropcaps">N</span>
+                <span class="">News</span>
+            </a>
+        </div>
+        <h2 class="title--card title--dark card__link--decorated"> <a href="#">Card title</a></h2>
+        <p class="card-text text--card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <!-- card meta -->
+        <p class="meta d-flex justify-content-between"> 
+            <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+            <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+        </p>
+    </div>
+</div>
+<br><b><br><br>
+
+   <!-- CARD 2 -->
+<div class="card card--encrusted" style="background-image: url('./public/uploads/slider-2.jpg');">
+
+    <div class="card-body">
+        <div class="meta--category">
+            <a class="" href="#">
+                <span class="meta--category__dropcaps">N</span>
+                <span class="">News</span>
+            </a>
+        </div>
+        <h2 class="title--card card__link--decorated"> <a href="#">Card title</a></h2>
+        <p class="card-text text--card">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <!-- card meta -->
+        <p class="meta d-flex justify-content-between"> 
+            <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+            <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+        </p>
+    </div>
+</div>
+
+   <!-- CARD 3 --> <br><br><br><br>
+<div class="card">
+    <div class="card-body">
+        <div class="d-flex">
+            <span class="card__icon"><i class="fas fa-american-sign-language-interpreting heading--medium"></i></span>
+            <h5 class="card__title">Card title</h5>
+        </div>
+        <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut reiciendis architecto enim odio repellendus optio expedita beatae amet atque explicabo?</p>
+    </div>
+</div>
+
+
+
+   <!-- CARD 4 --> <br><br><br><br>
+<div class="card card--tertiary mb-3 " >
+    <div class="row no-gutters">
+        <div class="col-md-5 image-card" style="background-image: url('./public/uploads/omarsy.jpg');">
+        </div>
+        <div class="col-md-7">
+            <div class="card-body">
+                <div class="meta--category">
+                    <a class="" href="#">
+                        <span class="meta--category__dropcaps">N</span>
+                        <span class="meta--category__name">News</span>
+                    </a>
+                </div>
+                <h5 class="card__title">Card title</h5>
+                <p class="card__text card--last-news-prev__text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="meta d-flex justify-content-between"> 
+                    <span class="meta__author-name size--xs"><i class="fas fa-user"></i> <a href="#">François Dupond</a></span>  
+                    <span class="meta__article-date size--xs"><i class="fas fa-clock"></i> <a href="#">01 mars 2020</a></span>   
+                </p>
+
+                <a href="#" class="card__link--decorated">lire la duite</a>
+            </div>
+      </div>
+    </div>
+  </div>
+   <!-- CARD 5 -->
+
+
+    
+    
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title size--m">Les films de Plein air</h5>
+                            </div>
+                            <p class="card__text">Adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut </p>
+                            <ul class="col-md-12 d-flex justify-content-between social-media">
+                                <li><a href="#" class="social-media__facebook size--m"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-media__twitter size--m"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-media__youtube size--m"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#" class="social-media__instagram size--m"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title size--m">Mentions légals</h5>
+                            </div>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut reiciendis architecto enim odio repellendus optio expedita beatae amet atque explicabo?</p>
+                            <a href="#" class="card__link--decorated">Protection des données</a>
+                            <a href="#" class="card__link--decorated">Mentions légales</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title size--m">Restons en contact</h5>
+                            </div>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <form action="" class="form">
+                                <div class="form-group d-flex">
+                                    <input type="text" placeholder="adresse electronique" class="form-control form__input">
+                                    <button class="button button--light">S'abonner</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer__copyright">
+                <a href="https://ntimba.com" class="footer__copyright-logo justify-content-end"><img src="./public/imgs/logo-ntimba.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./public/js/video.js"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script> 
+</body>
+</html>
