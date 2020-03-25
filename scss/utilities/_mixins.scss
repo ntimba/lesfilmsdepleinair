@@ -25,6 +25,11 @@
 	color: $color-secondary;
 }
 
+@mixin link--dark{
+    text-decoration: none;
+	color: $color-quaternary;
+}
+
 @mixin social-media ($color) {
 	&:hover{
 		color: $color

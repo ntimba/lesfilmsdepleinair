@@ -1,6 +1,22 @@
 .carousel{
     position: relative;
     height: 100%;
+
+    .meta a{
+        @include link--dark;
+    }
+
+    .meta--category a{
+        color: $color-quaternary;
+    }
+
+    .meta__article-view .icon{
+        color: $color-primary;
+    }
+
+    .title--card{
+        margin: 1rem 0rem;
+    }
     
     .filter{
         position: absolute;
@@ -36,10 +52,10 @@
         // left: -5rem;
         // vertical-align: middle !important;
         
-        
+        display: none;
         li{
             vertical-align: middle;        
-            width: 100%;
+            width: 1px;
             height: 2px;
             background-color: $color-primary;
         }

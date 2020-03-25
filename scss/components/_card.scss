@@ -49,6 +49,18 @@
 				background-color: $color-primary;
 			}
 		}
+
+		&--decorated-dark{
+			@include link;
+			display: inline-block;
+			border-bottom: .1rem solid $color-primary;
+			&:hover{
+				text-decoration:none;
+				color: $color-secondary;
+				background-color: $color-primary;
+			}
+		}
+		
 	}
 
 
@@ -56,6 +68,8 @@
 		.image-card{
 			height: 20rem;
 		}
+
+
 	}
 	
 	&--trailer{

@@ -1,0 +1,23 @@
+.news-container{
+    margin-top: 5rem;
+
+    .title--section{
+        display: inline-block;
+        text-align: center;
+        color: $color-secondary;
+        border-bottom: 0.3rem solid $color-primary;
+        margin-bottom: 3rem;
+    }
+
+    [class*="col"]{
+        margin-bottom: 1rem;
+    }
+
+
+    .pagination{
+        text-align: center;
+    }
+    
+    
+}
+

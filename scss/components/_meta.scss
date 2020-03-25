@@ -1,4 +1,7 @@
 .meta{
+    .icon{
+        margin-right: 0.5rem;
+    }
     a{
         @include link; 
 
@@ -17,15 +20,20 @@
         font-weight: $semibold;
     }
 
+    &__article-view{
+        
+    }
+
     &--category{
         margin-bottom: 1rem;
         a{
-            color: $color-secondary;
+            text-decoration: none; 
         }
         
         &__dropcaps{
-            font-family: $primary-font;
             background: $color-primary;
+            color: $color-secondary;
+            font-family: $primary-font;
             font-weight: $semibold;
             padding: 0.5rem;
         }
