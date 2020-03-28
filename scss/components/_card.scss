@@ -78,6 +78,12 @@
 			padding-top: .5rem;
 			padding-left: 0;
 		}
+
+		.card-body{
+			padding-top: 0.5rem;
+			padding-left: 0;
+		}
+				
 		&__play-button{
 			position: absolute;
             top: 0;
@@ -85,6 +91,14 @@
             background-color: #ffcc00;
             font-size: 1rem;
             padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+		}
+
+		.image-card{
+			height: 10rem;
+		}
+
+		.title--card{
+
 		}
 		
 	}
@@ -164,7 +178,7 @@
 
 	&--tertiary{
 		.image-card{
-			min-height: 21rem;
+			height: 12rem;
 		}
 	}
 	

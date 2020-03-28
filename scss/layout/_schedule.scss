@@ -1,0 +1,32 @@
+.schedule{
+
+    table, tr,td, th{
+        border: 0rem;
+    }
+
+    background-color: $color-secondary;
+    color: $color-quaternary;
+
+    a{
+        color: $color-quaternary;
+        background-color: $color-secondary;
+        font-weight: $semibold;
+    }
+
+    .nav-link{
+        border-radius: 0rem;
+
+
+    }
+
+    .nav-link.active, .nav-pills .show > .nav-link{
+        color: $color-secondary;
+        background-color: $color-primary;
+    }
+
+    .card{
+        border: 0rem;
+        background-color: $color-secondary;
+    }
+
+}

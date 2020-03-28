@@ -174,6 +174,10 @@ body {
   padding-top: 0.5rem;
   padding-left: 0;
 }
+.card--trailer .card-body {
+  padding-top: 0.5rem;
+  padding-left: 0;
+}
 .card--trailer__play-button {
   position: absolute;
   top: 0;
@@ -181,6 +185,9 @@ body {
   background-color: #ffcc00;
   font-size: 1rem;
   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+}
+.card--trailer .image-card {
+  height: 10rem;
 }
 .card--featured-movie {
   border: 0rem;
@@ -235,7 +242,7 @@ body {
   bottom: 0px;
 }
 .card--tertiary .image-card {
-  min-height: 21rem;
+  height: 12rem;
 }
 
 .social-media {
@@ -441,6 +448,57 @@ body {
   vertical-align: middle;
   padding-top: 4rem;
   text-align: center;
+}
+
+.schedule {
+  background-color: #333;
+  color: #efefef;
+}
+.schedule table, .schedule tr, .schedule td, .schedule th {
+  border: 0rem;
+}
+.schedule a {
+  color: #efefef;
+  background-color: #333;
+  font-weight: 600;
+}
+.schedule .nav-link {
+  border-radius: 0rem;
+}
+.schedule .nav-link.active, .schedule .nav-pills .show > .nav-link {
+  color: #333;
+  background-color: #ffcc00;
+}
+.schedule .card {
+  border: 0rem;
+  background-color: #333;
+}
+
+.about {
+  margin-top: 2rem;
+}
+.about .card {
+  border: none;
+}
+
+.heading--section {
+  margin-bottom: 2rem;
+}
+.heading--section .title--section {
+  border-left: 0.3rem solid #ffcc00;
+  padding-left: 1rem;
+}
+
+.last-news {
+  margin-top: 5rem;
+}
+
+.last-trailer {
+  margin-top: 5rem;
+}
+
+.schedule {
+  margin-top: 3rem;
 }
 
 .news-container {
