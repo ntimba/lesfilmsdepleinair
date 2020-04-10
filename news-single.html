@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/fontawesome/">
+
+    <link rel="icon" href="./public/imgs/favicon.png" type="image/png" sizes="32x32">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,500i|Martel:300,400|Trirong:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light navigation">
+        <a class="navbar-brand" href="#"> <img class="navigation__logo" src="./public/imgs/logo_pleinair.png" alt="les films de plein air"> </a>
+        <button class="navbar-toggler manu-bars" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navigation collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="navigation__link navigation__link--active">
+                      Accueil
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="index.html#schedule">Réservation</a>
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="news.html">Actualité</a>
+                </li>
+                <li class="navigation__link">
+                    <a class="" href="contact.html">Contact</a>
+                </li>
+                <li class=" d-none d-lg-block"><!-- Desactiver pour les smartphone -->
+                    <a href="index.html#schedule" class="button button--light">Reserver</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    
+   
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8"> 
+                <div class="row">
+                    <!-- titre de la page -->
+                    <h1>Titre de ma page</h1>
+                    <!-- Meta de l'article -->
+                    <p class="meta d-flex justify-content-between text--carousel"> 
+                        <span class="meta__author-name size--xs"><i class="fas fa-user icon"></i> <a href="#">François Dupond</a></span>  
+                        <span class="meta__article-date size--xs"><i class="far fa-clock icon"></i> <a href="#">01 mars 2020</a></span>   
+                    </p>
+                    <!-- Featured image -->
+                    <img src="./public/uploads/interview.jpg" class="img-fluid" alt="">
+                </div>
+                <!-- bar laterale de partage -->
+                <div class="row">
+                    <div class="col-md-1">
+                        <p>Partager</p>
+                    </div>
+
+                    <div class="col-md-10 offset-md-1">
+                        <div class="article-content">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti reiciendis nulla natus nostrum rerum voluptates dolores harum minima quaerat? Veniam deserunt ipsa similique accusamus laborum saepe quo laboriosam mollitia deleniti.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis delectus recusandae amet, tempore assumenda ab labore tempora, hic excepturi, fugiat debitis voluptatibus odit quidem non sunt nam quis. Corporis, enim.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius corrupti enim dolorem alias unde. Itaque beatae eveniet nulla aliquid odio praesentium molestias commodi? Aliquam voluptate, ea delectus temporibus perferendis ipsum!</p>
+
+                            <h2>Title lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum fugit, est quas rem, temporibus exercitationem alias suscipit ipsam odio non hic iusto voluptas esse fuga accusamus illum. Repudiandae, molestiae quibusdam.</p>
+                            <img src="./public/uploads/image-cinema.jpg" class="img-fluid" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore recusandae omnis. Quod, iure vel libero quos tempora itaque dignissimos nemo ex eos cum ipsum obcaecati, perferendis ipsam unde repellat.</p>
+
+                        </div>
+
+                        <!-- Module de partage -->
+                        <div class="share">
+                            facebook, twitter, pinterest
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comment area -->
+                <div class="row comment-area">
+                    <div class="col-md-12">
+                        <h4>Commentaires</h4>
+                    </div>
+                    <div class="col-md-12">
+                        <!-- Comment form -->
+                        <div class="form">
+                            <div class="form-group">
+                                <textarea placeholder="Commentaire" rows="10" class="form-control form__textarea" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input placeholder="Nom, Prénom" type="text" class="form-control form__input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="col">
+                                    <input placeholder="Adresse éléctronique" type="email" class="form-control form__input" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <button class="button button--light col-md-12">Commenter</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 list-comment">
+                        <div class="comment mb-4 ">
+                            <img class="rounded-circle mr-4" src="http://placehold.it/60x60" alt="">
+                            <div class="comment-body">
+                                <h5>Mon prénom</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas rerum possimus sed modi natus esse, laborum cum, dolores assumenda, quisquam nesciunt similique sint? Vel rerum minima ducimus quas laborum? Vero?</p>
+                            </div>
+                        </div>
+
+                        <div class="comment mb-4 ">
+                            <img class="rounded-circle mr-4" src="http://placehold.it/60x60" alt="">
+                            <div class="comment-body">
+                                <h5>Mon prénom</h5>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas rerum possimus sed modi natus esse, laborum cum, dolores assumenda, quisquam nesciunt similique sint? Vel rerum minima ducimus quas laborum? Vero?</p>
+
+                                <!-- Response -->
+                                <div class="comment comment-nested mb-4 mt-4 ">
+                                    <img class="rounded-circle mr-4" src="http://placehold.it/60x60" alt="">
+                                    <div class="comment-body">
+                                        <h5>Mon prénom</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas rerum possimus sed modi natus esse, laborum cum, dolores assumenda, quisquam nesciunt similique sint? Vel rerum minima ducimus quas laborum? Vero?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="button button--light justify-content-center">
+                            Afficher plus des commentaires
+                        </button>
+                    </div>
+                </div>
+                
+
+
+                
+            </div>
+            <div class="col-md-4">
+                <!-- Fallow US -->
+                <div class="fallow-us">
+                    <h6>Suivez-nous</h6> 
+                    
+                    <div class="social-links-wrap">
+                        <div class="social-links-item facebook">
+                            <a href="">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>32K</span>
+                                <span>j'aimes</span>
+                            </a>
+                        </div>
+
+                        <div class="social-links-item twitter">
+                            <a href="">
+                                <i class="fab fa-twitter"></i>
+                                <span>32K</span>
+                                <span>Fallowers</span>
+                            </a>
+                        </div>
+
+                        <div class="social-links-item instagram">
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                                <span>32K</span>
+                                <span>Fallowers</span>
+                            </a>
+                        </div>
+
+                        <div class="social-links-item youtube">
+                            <a href="">
+                                <i class="fab fa-youtube"></i>
+                                <span>343</span>
+                                <span>Fallowers</span>
+                            </a>
+                        </div>
+
+                        <div class="social-links-item vimeo">
+                            <a href="">
+                                <i class="fab fa-vimeo"></i>
+                                <span>1222</span>
+                                <span>Fallowers</span>
+                            </a>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+                <div class="twitter-feed">
+                    <div class="twitter-header">
+                        <div class="twitter-container">
+                            <a href="">
+                                <img src="http://placehold.it/50x50" class="rounded-circle" alt="">
+                            </a>
+                            <div class="twitter-info">
+                                <h6>Les Films De Plein Air</h6>
+                                <span class="twitter-username">
+                                    @filmsdeplainair
+                                </span>
+                            </div>
+                        </div>
+                        <div class="twitter-counters d-flex">
+                            <div class="twitter-counter following"><span class="number">2</span> Following<span class=""></span></div>
+                            
+                            <div class="twitter-counter followers"><span class="number">70</span> Followers <span class=""></span></div>
+                        </div>
+                    </div>
+
+                    <div class="twitter-tweets">
+                        <div class="twitter-tweet">
+                            <div class="twitter-tweet-content">
+                                Nous allons diffuser le films de jean-luc :
+                                <a href="#">https://t.co/3kSss3</a>
+                            </div>
+
+                            <a href="#" class="twitter-time">Over a year age</a>
+                            <div class="twitter-actions">
+                                <ul>
+                                    <li><i class="fas fa-share"></i></li>
+                                    <li><i class="fas fa-retweet"></i></li>
+                                    <li><i class="fas fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="twitter-tweets">
+                        <div class="twitter-tweet">
+                            <div class="twitter-tweet-content">
+                                Nous allons diffuser le films de jean-luc :
+                                <a href="#">https://t.co/3kSss3</a>
+                            </div>
+
+                            <a href="#" class="twitter-time">Over a year age</a>
+                            <div class="twitter-actions">
+                                <ul>
+                                    <li><i class="fas fa-share"></i></li>
+                                    <li><i class="fas fa-retweet"></i></li>
+                                    <li><i class="fas fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="twitter-tweets">
+                        <div class="twitter-tweet">
+                            <div class="twitter-tweet-content">
+                                Nous allons diffuser le films de jean-luc :
+                                <a href="#">https://t.co/3kSss3</a>
+                            </div>
+
+                            <a href="#" class="twitter-time">Over a year age</a>
+                            <div class="twitter-actions">
+                                <ul>
+                                    <li><i class="fas fa-share"></i></li>
+                                    <li><i class="fas fa-retweet"></i></li>
+                                    <li><i class="fas fa-heart"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="twitter-footer mt-4">
+                        <button class="button btn-block button--light">Follow</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+
+
+    </div>
+    
+    
+
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title">Les films de Plein air</h5>
+                            </div>
+                            <p class="card__text">Adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut reiciendis architecto enim odio repellendus optio expedita beatae amet atque explicabo?</p>
+                            <ul class="col-md-8 d-flex justify-content-between social-media">
+                                <li><a href="#" class="social-media__facebook"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-media__twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-media__youtube"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="#" class="social-media__instagram"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title">Mentions légals</h5>
+                            </div>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus culpa, quisquam fuga in tempora nostrum maiores inventore aut reiciendis architecto enim odio repellendus optio expedita beatae amet atque explicabo?</p>
+                            <a href="#" class="card__link--decorated">Protection des données</a>
+                            <a href="#" class="card__link--decorated">Mentions légales</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <h5 class="card__title">Restons en contact</h5>
+                            </div>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                            <form action="" class="form">
+                                <div class="form-group d-flex">
+                                    <input type="text" placeholder="adresse electronique" class="form-control form__input">
+                                    <button class="button button--light">S'abonner</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="footer__copyright">
+                <a href="https://ntimba.com" class="footer__copyright-logo justify-content-end"><img src="./public/imgs/logo-ntimba.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./public/js/video.js"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script> 
+</body>
+</html>

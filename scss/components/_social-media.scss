@@ -25,6 +25,33 @@
     &__instagram{
         @include social-media($color-instagram);
     }
+}
 
-   
+.social-links-item{
+    background-color: transparent;
+    
+    border: 2px solid green;
+
+    .facebook a{
+        
+
+    }
+}
+
+
+.twitter-feed{
+    margin-top: 2rem;
+    background: $color-quaternary;
+    padding: 2rem;
+}
+
+.twitter-container{
+    display: flex;
+    align-items: unset;
+}
+
+.twitter-tweet{
+    margin-top: 1rem;
+    border-top: 1px solid lightgrey;
+    padding: 1rem 0rem;
 }

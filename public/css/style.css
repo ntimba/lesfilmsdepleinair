@@ -5,6 +5,56 @@ body {
   position: relative;
 }
 
+.list-style-none {
+  list-style-type: none;
+}
+
+.m-l-none {
+  margin-left: 0rem;
+}
+
+.p-l-none {
+  padding-left: 0rem;
+}
+
+.text-muted {
+  color: lightgrey;
+}
+.text-primary {
+  color: #333;
+}
+.text-success {
+  color: green;
+}
+.text-info {
+  color: blue;
+}
+.text-warning {
+  color: orange;
+}
+.text-danger {
+  color: red;
+}
+
+.bg-muted {
+  background-color: lightgrey;
+}
+.bg-primary {
+  background-color: #333;
+}
+.bg-success {
+  background-color: green;
+}
+.bg-info {
+  background-color: blue;
+}
+.bg-warning {
+  background-color: orange;
+}
+.bg-danger {
+  background-color: red;
+}
+
 .button {
   font-family: "Fira Sans", serif;
   padding: 0.425rem 1.5rem;
@@ -268,6 +318,27 @@ body {
   color: #000000;
 }
 
+.social-links-item {
+  background-color: transparent;
+  border: 2px solid green;
+}
+.twitter-feed {
+  margin-top: 2rem;
+  background: #efefef;
+  padding: 2rem;
+}
+
+.twitter-container {
+  display: flex;
+  align-items: unset;
+}
+
+.twitter-tweet {
+  margin-top: 1rem;
+  border-top: 1px solid lightgrey;
+  padding: 1rem 0rem;
+}
+
 .meta .icon {
   margin-right: 0.5rem;
 }
@@ -374,6 +445,29 @@ body {
 }
 
 /* prendre en compte les background, les couleur de font, les liens etc ..*/
+.comment {
+  display: flex;
+  align-items: flex-start;
+}
+
+.comment-area {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.comment-area form {
+  margin-bottom: 5rem;
+}
+
+.list-comment {
+  margin-top: 3rem;
+}
+
+.modal-content {
+  background: #efefef;
+  border: 2px solid green;
+  border-radius: 0rem;
+}
+
 .footer {
   background: #efefef;
   padding: 3rem 0 3rem;
